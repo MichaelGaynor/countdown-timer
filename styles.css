@@ -1,0 +1,32 @@
+
+body{
+  height: 100vh;
+  background: url("http://wallpapercave.com/wp/Y1fUfUg.png") no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+h1{
+  color: #936;
+  font-size: 40px;
+  margin: 40px 0 20px;
+text-shadow:
+    -1px -1px 0 #997,
+    1px -1px 0 #997,
+    -1px 1px 0 #997,
+    1px 1px 0 #997;
+}
+
+#timer-div{
+  /* background-color: #00ecb9; */
+  color: #fff;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.time-unit,.time-unit > span{
+  padding: 10px;
+  border-radius: 3px;
+  background: #00816a;
+  display: inline-block;
+}
