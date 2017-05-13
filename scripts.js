@@ -13,7 +13,7 @@ function Timer(id, endtime){
 
 Timer.prototype.getTimeRemaining = function(){
   var t = Date.parse(this.endtime) - Date.parse(new Date());
-  this.disappointment = t;
+  this.disappointment = (t/1000);
   this.seconds = Math.floor((t / 1000) % 60);
   this.minutes = Math.floor((t / 1000 / 60) % 60);
   this.hours = Math.floor((t / (1000 * 60 * 60)) % 24);

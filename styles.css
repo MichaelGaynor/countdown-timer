@@ -36,6 +36,30 @@ text-shadow:
     1px 1px 0 #191022;
 }
 
+div.time-unit span.weeks{
+  padding-right: 0;
+}
+
+div.time-unit span.days{
+  padding-right: 0;
+}
+
+div.time-unit span.hours{
+  padding-right: 0;
+}
+
+div.time-unit span.minutes{
+  padding-right: 0;
+}
+
+div.time-unit span.seconds{
+  padding-right: 0;
+}
+
+div.time-unit span.disappointment{
+  padding-right: 0;
+}
+
 .time-unit > span.small-text{
   padding-left: 0;
 }
