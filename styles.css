@@ -9,7 +9,7 @@ body{
 h1{
   color: #936;
   font-size: 40px;
-  margin: 40px 0 20px;
+  margin: 60px 0 40px;
 text-shadow:
     -1px -1px 0 #997,
     1px -1px 0 #997,
@@ -27,6 +27,15 @@ text-shadow:
 .time-unit,.time-unit > span{
   padding: 10px;
   border-radius: 3px;
-  background: #00816a;
+  /* background: #00816a; */
   display: inline-block;
+  text-shadow:
+    -1px -1px 0 #191022,
+    1px -1px 0 #191022,
+    -1px 1px 0 #191022,
+    1px 1px 0 #191022;
+}
+
+.time-unit > span.small-text{
+  padding-left: 0;
 }
